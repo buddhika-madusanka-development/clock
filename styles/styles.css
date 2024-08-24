@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right, black , rgb(5, 12, 18));
+}
+
+h1{
+    text-align: center;
+    color: rgb(106, 180, 198);
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.clock{
+    border: 1px solid rgb(16, 23, 36);
+    border-radius: 10px;
+    padding: 30px 50px;
+    color: white;
+}
+
+
+.clock .time-block{
+    display: flex;
+    justify-content: center;
+}
+
+.clock .time{
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+.clock .time span{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: rgb(26, 44, 60);
+}
